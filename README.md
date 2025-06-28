@@ -2,12 +2,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=500&lines=Hello+there+%F0%9F%91%8B+I'm+MD.+ABIR+HASAN+PIASH;A+Passionate+Full-Stack+Developer;" alt="Typing SVG" />
 </p>
-
-<!-- Profile Picture -->
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/AbirHasanPiash" width="150" style="border-radius:50%" />
-</p>
-
 ---
 
 ### 👨‍💻 About Me

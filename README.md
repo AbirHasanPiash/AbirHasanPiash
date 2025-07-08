@@ -60,6 +60,15 @@ Hi, I'm **MD. Abir Hasan Piash** – a passionate full-stack developer from Bang
 
 ---
 
+### 🏅 Certifications
+
+- 🧠 **2025** – *Introducing Generative AI with AWS*, Udacity (in collaboration with AWS and Accenture)  
+  [Show Credential](https://www.udacity.com/certificate/e/6295e170-3d4f-11f0-9c7a-133a78634c1b)
+
+- 📊 **2025** – *Supervised Machine Learning: Regression and Classification*, Stanford University on Coursera  
+  [Show Credential](https://coursera.org/share/81b969eac90af74da9d14c5a83420554)
+
+
 ### 🌍 Let's Connect
 
 <p align="center">

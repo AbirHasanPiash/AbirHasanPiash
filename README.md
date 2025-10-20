@@ -41,7 +41,7 @@ Hi, I'm **MD. Abir Hasan Piash** – a passionate full-stack developer from Bang
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AbirHasanPiash&show_icons=true&theme=tokyonight&hide_border=false" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbirHasanPiash&theme=tokyonight&hide_border=false" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbirHasanPiash&theme=tokyonight&hide_border=false&include_all_commits=true" width="48%" />
 </p>
 
 ---

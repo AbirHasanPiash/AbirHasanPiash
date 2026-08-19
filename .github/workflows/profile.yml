@@ -1,0 +1,57 @@
+name: Refresh profile panels
+
+# The panels on the profile are generated here and committed as plain SVGs, so
+# what visitors load is served by GitHub itself. Nothing on the README depends on
+# a third-party card service staying up.
+
+on:
+  schedule:
+    # 02:10 and 14:10 UTC. Cron on GitHub is best-effort under load, which is
+    # fine: the committed SVGs keep rendering until the next successful run.
+    - cron: "10 2,14 * * *"
+  push:
+    branches: [main, master]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+  workflow_dispatch:
+
+# Never let a scheduled run and a manual run race for the same commit.
+concurrency:
+  group: profile-panels
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # No dependencies to install: the generator uses built-in fetch only.
+      - name: Render panels
+        env:
+          # PROFILE_TOKEN is optional. The default GITHUB_TOKEN can read public
+          # contributions; supply a PAT with read:user if private contributions
+          # should be counted too.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: node scripts/generate.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --staged --quiet; then
+            echo "Panels unchanged — nothing to commit."
+          else
+            git commit -m "chore: refresh profile panels"
+            git push
+          fi

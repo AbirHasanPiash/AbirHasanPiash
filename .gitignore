@@ -1,0 +1,4 @@
+# Local dry-run output. `node scripts/generate.mjs --preview` writes here so a
+# test render can never overwrite the panels the profile actually serves.
+preview/
+node_modules/

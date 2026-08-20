@@ -31,7 +31,7 @@
   <rect x="30" y="38" width="16" height="2" rx="1" fill="url(#accent)"/>
   <text x="54" y="42" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="700" letter-spacing="2.2" fill="#67e8f9">BY THE NUMBERS</text>
   <text x="30" y="64" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#aebbd3">Building publicly for 2.3 years</text>
-  <text x="30" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#67e8f9">354<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.00s" fill="freeze"/></text>
+  <text x="30" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#67e8f9">355<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.00s" fill="freeze"/></text>
   <text x="30" y="114" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.1" fill="#8494b0">CONTRIBUTIONS</text>
   <text x="158" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#a5b4fc">29<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.08s" fill="freeze"/></text>
   <text x="158" y="114" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.1" fill="#8494b0">REPOSITORIES</text>
@@ -39,7 +39,7 @@
   <text x="286" y="114" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.1" fill="#8494b0">ACTIVE DAYS</text>
   <text x="30" y="154" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#67e8f9">18<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.24s" fill="freeze"/></text>
   <text x="30" y="170" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.1" fill="#8494b0">LONGEST STREAK</text>
-  <text x="158" y="154" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#a5b4fc">108<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.32s" fill="freeze"/></text>
+  <text x="158" y="154" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#a5b4fc">109<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.32s" fill="freeze"/></text>
   <text x="158" y="170" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.1" fill="#8494b0">THIS YEAR</text>
   <text x="286" y="154" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#6ee7b7">5<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.40s" fill="freeze"/></text>
   <text x="286" y="170" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.1" fill="#8494b0">LANGUAGES</text>
@@ -50,9 +50,9 @@
     </linearGradient>
   </defs>
   <text x="30" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="8.5" letter-spacing="1.4" fill="#8494b0">WEEKLY CADENCE · LAST 26 WEEKS</text>
-  <path d="M30.0 226.2L44.8 234.0L59.6 234.0L74.4 210.5L89.2 210.5L104.0 218.3L118.8 200.0L133.6 234.0L148.4 234.0L163.2 234.0L178.0 234.0L192.8 234.0L207.6 234.0L222.4 234.0L237.2 234.0L252.0 234.0L266.8 234.0L281.6 234.0L296.4 234.0L311.2 234.0L326.0 234.0L340.8 234.0L355.6 234.0L370.4 234.0L385.2 234.0L400.0 234.0L400.0 234L30 234Z" fill="url(#sparkfill)"><animate attributeName="opacity" values="0;1" dur="1s" begin="0.4s" fill="freeze"/></path>
-  <path d="M30.0 226.2L44.8 234.0L59.6 234.0L74.4 210.5L89.2 210.5L104.0 218.3L118.8 200.0L133.6 234.0L148.4 234.0L163.2 234.0L178.0 234.0L192.8 234.0L207.6 234.0L222.4 234.0L237.2 234.0L252.0 234.0L266.8 234.0L281.6 234.0L296.4 234.0L311.2 234.0L326.0 234.0L340.8 234.0L355.6 234.0L370.4 234.0L385.2 234.0L400.0 234.0" stroke="#22d3ee" stroke-width="1.75" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="418">
-    <animate attributeName="stroke-dashoffset" values="418;0" dur="1.3s" begin="0.15s" fill="freeze"/>
+  <path d="M30.0 226.7L44.8 234.0L59.6 234.0L74.4 212.1L89.2 212.1L104.0 219.4L118.8 200.0L133.6 234.0L148.4 234.0L163.2 234.0L178.0 234.0L192.8 234.0L207.6 234.0L222.4 234.0L237.2 234.0L252.0 234.0L266.8 234.0L281.6 234.0L296.4 234.0L311.2 234.0L326.0 234.0L340.8 234.0L355.6 234.0L370.4 234.0L385.2 234.0L400.0 234.0L400.0 234L30 234Z" fill="url(#sparkfill)"><animate attributeName="opacity" values="0;1" dur="1s" begin="0.4s" fill="freeze"/></path>
+  <path d="M30.0 226.7L44.8 234.0L59.6 234.0L74.4 212.1L89.2 212.1L104.0 219.4L118.8 200.0L133.6 234.0L148.4 234.0L163.2 234.0L178.0 234.0L192.8 234.0L207.6 234.0L222.4 234.0L237.2 234.0L252.0 234.0L266.8 234.0L281.6 234.0L296.4 234.0L311.2 234.0L326.0 234.0L340.8 234.0L355.6 234.0L370.4 234.0L385.2 234.0L400.0 234.0" stroke="#22d3ee" stroke-width="1.75" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="417">
+    <animate attributeName="stroke-dashoffset" values="417;0" dur="1.3s" begin="0.15s" fill="freeze"/>
   </path>
   <circle cx="400.0" cy="234.0" r="3" fill="#67e8f9"/>
   <circle cx="400.0" cy="234.0" r="3" fill="none" stroke="#67e8f9" stroke-opacity="0.6">

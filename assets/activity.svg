@@ -30,7 +30,7 @@
   <rect x="0.75" y="0.75" width="878.5" height="224.5" rx="15.25" stroke="url(#stroke)" stroke-width="1.5"/>
   <rect x="42" y="38" width="16" height="2" rx="1" fill="url(#accent)"/>
   <text x="66" y="42" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="700" letter-spacing="2.2" fill="#6ee7b7">CONTRIBUTION ACTIVITY</text>
-  <text x="838" y="42" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#aebbd3">230 in the last year</text>
+  <text x="838" y="42" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#aebbd3">236 in the last year</text>
   <text x="42" y="68" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#8494b0">Aug</text>
   <text x="87" y="68" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#8494b0">Sep</text>
   <text x="147" y="68" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#8494b0">Oct</text>
@@ -414,8 +414,8 @@
   <rect x="822" y="78" width="12" height="12" rx="3" fill="#155a70"/>
   <rect x="822" y="93" width="12" height="12" rx="3" fill="#141c30" opacity="0.85"/>
   <rect x="822" y="108" width="12" height="12" rx="3" fill="#141c30" opacity="0.85"/>
-  <rect x="822" y="123" width="12" height="12" rx="3" fill="#141c30" opacity="0.85"/>
-  <rect x="822" y="138" width="12" height="12" rx="3" fill="#141c30" opacity="0.85"/>
+  <rect x="822" y="123" width="12" height="12" rx="3" fill="#67e8f9"/>
+  <rect x="822" y="138" width="12" height="12" rx="3" fill="#155a70"/>
   <rect x="822" y="153" width="12" height="12" rx="3" fill="#141c30" opacity="0.85"/>
   <rect x="822" y="168" width="12" height="12" rx="3" fill="#141c30" opacity="0.85"/>
   <defs>

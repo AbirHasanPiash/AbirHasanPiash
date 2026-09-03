@@ -37,19 +37,6 @@ const PROJECTS = [
     metrics: "63 REST endpoints · 15 Prisma models · 4 roles",
     tech: ["Express", "React", "MongoDB", "Prisma", "JWT"],
   },
-   /**
-
-  {
-    slug: "multiaimodel",
-    title: "MultiAIModel",
-    category: "AI / ML",
-    accent: "violet",
-    glyph: "AI",
-    blurb: "One surface over OpenAI, Gemini and Claude, billing included.",
-    metrics: "WebSocket streaming · Stripe + Razorpay · Celery",
-    tech: ["FastAPI", "PostgreSQL", "Redis", "Celery"],
-  },
-  */
   {
     slug: "eventpilot",
     title: "EventPilot",

@@ -23,7 +23,7 @@ I care about the parts of software that only show up under load: the query that 
 
 - 👨‍🏫 Undergraduate Teaching Assistant at BRAC University, and Lead Software Engineer at **StackScholar**
 - 🧪 Writing up **MatSeg-Conv**, a nested-capacity segmentation network that beats four established baselines while staying the smallest model benchmarked
-- 🧩 **350+** algorithm problems solved across LeetCode, Codeforces and CodeChef
+- 🧩 **500+** algorithm problems solved across LeetCode, Codeforces and CodeChef
 - 📫 Reach me at **abirhasanpiash@gmail.com**
 
 ---
@@ -53,10 +53,9 @@ I care about the parts of software that only show up under load: the query that 
 
 <p align="center">
   <a href="https://github.com/AbirHasanPiash/medicare-sync"><img src="assets/project-medicare-sync.svg" alt="MediCare Sync — clinic platform where concurrent bookings can never collide" width="49%" /></a>
-  <a href="https://github.com/AbirHasanPiash/multimodal-ai-platform"><img src="assets/project-multiaimodel.svg" alt="MultiAIModel — one surface over OpenAI, Gemini and Claude" width="49%" /></a>
+  <a href="https://github.com/AbirHasanPiash/EventPilot"><img src="assets/project-eventpilot.svg" alt="EventPilot — event management from creation through to attendance" width="49%" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/AbirHasanPiash/EventPilot"><img src="assets/project-eventpilot.svg" alt="EventPilot — event management from creation through to attendance" width="49%" /></a>
   <a href="https://pzafira.vercel.app/"><img src="assets/project-pzafira.svg" alt="Pzafira — a complete clothing storefront with real payments" width="49%" /></a>
 </p>
 

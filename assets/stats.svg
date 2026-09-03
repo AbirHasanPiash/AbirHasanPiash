@@ -33,7 +33,7 @@
   <text x="30" y="64" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#aebbd3">Building publicly for 2.3 years</text>
   <text x="30" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#67e8f9">360<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.00s" fill="freeze"/></text>
   <text x="30" y="114" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.1" fill="#8494b0">CONTRIBUTIONS</text>
-  <text x="158" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#a5b4fc">29<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.08s" fill="freeze"/></text>
+  <text x="158" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#a5b4fc">27<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.08s" fill="freeze"/></text>
   <text x="158" y="114" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.1" fill="#8494b0">REPOSITORIES</text>
   <text x="286" y="98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#6ee7b7">142<animate attributeName="opacity" values="0.25;1" dur="0.5s" begin="0.16s" fill="freeze"/></text>
   <text x="286" y="114" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="1.1" fill="#8494b0">ACTIVE DAYS</text>

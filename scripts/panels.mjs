@@ -1,4 +1,4 @@
-import { C, FONT, MONO, card, compact, esc, eyebrow, stars, textW } from "./theme.mjs";
+import { C, FONT, MONO, advanceW, card, compact, esc, eyebrow, stars, textW } from "./theme.mjs";
 import { languages, streaks } from "./data.mjs";
 
 /* -------------------------------------------------------------- 1. Header */
@@ -31,7 +31,9 @@ export function header({ name, tagline }) {
   const roles = ROLES.map((role, i) => {
     const begin = (i * per).toFixed(2);
     const beginList = `${begin}s;cycle.end+${begin}s`;
-    const width = Math.ceil(textW(role, roleSize, 700)) + 6;
+    /* The caret and the reveal edge both ride this width, so it has to match
+       what the role actually renders at rather than merely bound it. */
+    const width = Math.ceil(advanceW(role, roleSize, -0.3)) + 8;
     const clipId = `type-${i}`;
     /* Role 0 is fully visible in the markup; the others wait their turn. */
     return `    <clipPath id="${clipId}"><rect x="42" y="${roleY - 24}" width="${width}" height="34">
@@ -226,6 +228,15 @@ ${spark}`;
 
 /* ----------------------------------------------------------- 3. Languages */
 
+/* A language with real bytes behind it must never print as "0.0%": a zero in a
+   list of five reads as a broken panel rather than as a small number. */
+function sharePct(share) {
+  const pct = share * 100;
+  /* esc(), because a bare "<" in a text node is not well-formed XML and takes
+     the whole panel down with it. */
+  return pct > 0 && pct < 0.05 ? esc("<0.1%") : `${pct.toFixed(1)}%`;
+}
+
 export function langPanel(data) {
   const w = 430;
   const h = 250;
@@ -240,7 +251,7 @@ export function langPanel(data) {
       const share = lang.share * scale;
       const barW = Math.max(6, share * 370);
       return `  <text x="30" y="${y}" font-family="${FONT}" font-size="12.5" font-weight="600" fill="${C.ink}">${esc(lang.name)}</text>
-  <text x="400" y="${y}" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.inkFaint}">${(share * 100).toFixed(1)}%</text>
+  <text x="400" y="${y}" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.inkFaint}">${sharePct(share)}</text>
   <rect x="30" y="${y + 7}" width="370" height="6" rx="3" fill="${C.surface2}"/>
   <rect x="30" y="${y + 7}" width="${barW.toFixed(1)}" height="6" rx="3" fill="${lang.color}">
     <animate attributeName="width" values="0;${barW.toFixed(1)}" dur="${(0.7 + i * 0.14).toFixed(2)}s" begin="0s" fill="freeze"/>
@@ -375,20 +386,49 @@ ${legend}
  */
 export function stack(icons) {
   const w = 880;
-  const h = 240;
-  const perRow = 10;
   const size = 30;
   const tile = 56;
-  const gapX = 84;
-  const startX = 60;
-  const rowY = [84, 164];
+  const margin = 42;
+  const maxPerRow = 11;
+  const maxPitch = 84;
+  const rowTop = 84;
+  const rowGap = 80;
+
+  /* The grid is derived from the icon count, never fixed. A hard 2x10 layout
+     silently drew the 21st icon on top of the 11th, because the row index ran
+     off the end of the row table and clamped back onto the last row. Adding a
+     technology now re-flows the whole strip instead. */
+  const count = Math.max(icons.length, 1);
+  const rows = Math.ceil(count / maxPerRow);
+
+  /* Spread as evenly as the count allows: 21 icons give 11 + 10, not 10 + 10 + 1. */
+  const rowCounts = [];
+  let remaining = count;
+  for (let row = 0; row < rows; row++) {
+    const take = Math.ceil(remaining / (rows - row));
+    rowCounts.push(take);
+    remaining -= take;
+  }
+
+  /* Column pitch tightens only as far as the widest row requires, so a short
+     strip keeps the roomier original spacing. */
+  const widest = Math.max(...rowCounts);
+  const pitch = Math.min(maxPitch, (w - margin * 2 - tile) / Math.max(1, widest - 1));
+  const h = rowTop + (rows - 1) * rowGap + 76;
+
+  /* Each row is centred on its own, so an odd final row sits under the middle
+     of the one above rather than hugging the left edge. */
+  const slots = [];
+  rowCounts.forEach((n, row) => {
+    const originX = (w - (n - 1) * pitch) / 2;
+    for (let col = 0; col < n; col++) {
+      slots.push({ cx: originX + col * pitch, cy: rowTop + row * rowGap });
+    }
+  });
 
   const nodes = icons
     .map((icon, i) => {
-      const col = i % perRow;
-      const row = Math.floor(i / perRow);
-      const cx = startX + col * gapX;
-      const cy = rowY[row] ?? rowY[rowY.length - 1];
+      const { cx, cy } = slots[i];
       const s = size / icon.viewBox;
       const paint = icon.fill ? ` fill="${icon.fill}"` : "";
       const dur = (3.8 + (i % 5) * 0.55).toFixed(2);

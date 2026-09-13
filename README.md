@@ -17,12 +17,12 @@
 
 ### About
 
-Computer Science undergraduate at **BRAC University** (CGPA **3.88/4.00**, SAAF Scholarship — 100% tuition waiver) and a full-stack engineer shipping production software across Python, TypeScript, FastAPI, Django and the MERN stack — healthcare platforms, AI products, event systems and e-commerce, usually several at once.
+Computer Science undergraduate at **BRAC University** (CGPA **3.89/4.00**, SAAF Scholarship — 100% tuition waiver) and a full-stack engineer shipping production software across Python, TypeScript, FastAPI, Django and the MERN stack — healthcare platforms, AI products, event systems and e-commerce, usually several at once.
 
 I care about the parts of software that only show up under load: the query that stops scaling, the race condition in a booking flow, the model that quietly overfits. Alongside that, my undergraduate thesis is applied deep-learning research in medical image segmentation.
 
 - 👨‍🏫 Undergraduate Teaching Assistant at BRAC University, and Lead Software Engineer at **StackScholar**
-- 🧪 Writing up **MatSeg-Conv**, a nested-capacity segmentation network that beats four established baselines while staying the smallest model benchmarked
+- 🧪 Author of **MatSeg-Conv**, a nested-capacity segmentation network that beats four established baselines while staying the smallest model benchmarked
 - 🧩 **500+** algorithm problems solved across LeetCode, Codeforces and CodeChef
 - 📫 Reach me at **abirhasanpiash@gmail.com**
 
@@ -51,6 +51,10 @@ I care about the parts of software that only show up under load: the query that 
 
 ### Selected work
 
+<p align="center">
+  <a href="https://github.com/AbirHasanPiash/DevLink"><img src="assets/project-devlink.svg" alt="DevLink — developer community where breaking the API won't compile" width="49%" /></a>
+  <a href="https://github.com/AbirHasanPiash/gen-marketing-studio"><img src="assets/project-gen-marketing-studio.svg" alt="Generative Marketing Studio — multi-tenant platform that generates and ships campaigns" width="49%" /></a>
+</p>
 <p align="center">
   <a href="https://github.com/AbirHasanPiash/medicare-sync"><img src="assets/project-medicare-sync.svg" alt="MediCare Sync — clinic platform where concurrent bookings can never collide" width="49%" /></a>
   <a href="https://github.com/AbirHasanPiash/EventPilot"><img src="assets/project-eventpilot.svg" alt="EventPilot — event management from creation through to attendance" width="49%" /></a>

@@ -28,6 +28,26 @@ const TAGLINE =
 /** Featured work, rendered as clickable cards. Copy is hand-tuned to fit. */
 const PROJECTS = [
   {
+    slug: "devlink",
+    title: "DevLink",
+    category: "Full-Stack",
+    accent: "violet",
+    glyph: "DL",
+    blurb: "Developer community where breaking the API won't compile.",
+    metrics: "38 REST operations \u00b7 9 Prisma models \u00b7 246 tests",
+    tech: ["NestJS", "TypeScript", "PostgreSQL", "Prisma", "Next.js"],
+  },
+  {
+    slug: "gen-marketing-studio",
+    title: "Generative Marketing Studio",
+    category: "Full-Stack",
+    accent: "mint",
+    glyph: "GM",
+    blurb: "Multi-tenant platform that generates and ships campaigns.",
+    metrics: "107 REST endpoints \u00b7 21 Prisma models \u00b7 multi-tenant",
+    tech: ["Express", "React", "MongoDB", "Prisma", "FFmpeg"],
+  },
+  {
     slug: "medicare-sync",
     title: "MediCare Sync",
     category: "Full-Stack",
@@ -83,6 +103,7 @@ const STACK = [
   { slug: "django", label: "Django", file: "django-plain", fill: "#44B78B" },
   { slug: "nodejs", label: "Node.js", file: "nodejs-original" },
   { slug: "express", label: "Express", file: "express-original", fill: "#e9eef7" },
+  { slug: "nestjs", label: "NestJS", file: "nestjs-original" },
   { slug: "pytorch", label: "PyTorch", file: "pytorch-original" },
   { slug: "tensorflow", label: "TensorFlow", file: "tensorflow-original" },
   { slug: "numpy", label: "NumPy", file: "numpy-original" },

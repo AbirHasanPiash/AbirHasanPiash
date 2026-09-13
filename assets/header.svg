@@ -71,55 +71,55 @@
     <text x="27" y="16" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#6ee7b7">Open to software &amp; AI roles</text>
   </g>
   <text x="44" y="104" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="38" font-weight="800" letter-spacing="-1" fill="#e9eef7">MD. Abir Hasan Piash</text>
-    <clipPath id="type-0"><rect x="42" y="124" width="266" height="34">
-      <animate attributeName="width" values="0;266;266" keyTimes="0;0.31;1" dur="3.2s" begin="0.00s;cycle.end+0.00s" fill="freeze"/>
+    <clipPath id="type-0"><rect x="42" y="124" width="203" height="34">
+      <animate attributeName="width" values="0;203;203" keyTimes="0;0.31;1" dur="3.2s" begin="0.00s;cycle.end+0.00s" fill="freeze"/>
     </rect></clipPath>
     <g opacity="1">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.91;1" dur="3.2s" begin="0.00s;cycle.end+0.00s" fill="freeze"/>
       <g clip-path="url(#type-0)">
         <text x="44" y="148" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-0.3" fill="url(#duo)">Full-Stack Engineer</text>
       </g>
-      <rect x="310" y="130" width="2.5" height="23" rx="1" fill="#67e8f9">
-        <animate attributeName="x" values="46;310;310" keyTimes="0;0.31;1" dur="3.2s" begin="0.00s;cycle.end+0.00s" fill="freeze"/>
+      <rect x="247" y="130" width="2.5" height="23" rx="1" fill="#67e8f9">
+        <animate attributeName="x" values="46;247;247" keyTimes="0;0.31;1" dur="3.2s" begin="0.00s;cycle.end+0.00s" fill="freeze"/>
         <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="0.85s" repeatCount="indefinite"/>
       </rect>
     </g>
-    <clipPath id="type-1"><rect x="42" y="124" width="225" height="34">
-      <animate attributeName="width" values="0;225;225" keyTimes="0;0.31;1" dur="3.2s" begin="3.20s;cycle.end+3.20s" fill="freeze"/>
+    <clipPath id="type-1"><rect x="42" y="124" width="169" height="34">
+      <animate attributeName="width" values="0;169;169" keyTimes="0;0.31;1" dur="3.2s" begin="3.20s;cycle.end+3.20s" fill="freeze"/>
     </rect></clipPath>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.91;1" dur="3.2s" begin="3.20s;cycle.end+3.20s" fill="freeze"/>
       <g clip-path="url(#type-1)">
         <text x="44" y="148" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-0.3" fill="url(#duo)">AI / ML Engineer</text>
       </g>
-      <rect x="269" y="130" width="2.5" height="23" rx="1" fill="#67e8f9">
-        <animate attributeName="x" values="46;269;269" keyTimes="0;0.31;1" dur="3.2s" begin="3.20s;cycle.end+3.20s" fill="freeze"/>
+      <rect x="213" y="130" width="2.5" height="23" rx="1" fill="#67e8f9">
+        <animate attributeName="x" values="46;213;213" keyTimes="0;0.31;1" dur="3.2s" begin="3.20s;cycle.end+3.20s" fill="freeze"/>
         <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="0.85s" repeatCount="indefinite"/>
       </rect>
     </g>
-    <clipPath id="type-2"><rect x="42" y="124" width="238" height="34">
-      <animate attributeName="width" values="0;238;238" keyTimes="0;0.31;1" dur="3.2s" begin="6.40s;cycle.end+6.40s" fill="freeze"/>
+    <clipPath id="type-2"><rect x="42" y="124" width="190" height="34">
+      <animate attributeName="width" values="0;190;190" keyTimes="0;0.31;1" dur="3.2s" begin="6.40s;cycle.end+6.40s" fill="freeze"/>
     </rect></clipPath>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.91;1" dur="3.2s" begin="6.40s;cycle.end+6.40s" fill="freeze"/>
       <g clip-path="url(#type-2)">
         <text x="44" y="148" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-0.3" fill="url(#duo)">Backend Architect</text>
       </g>
-      <rect x="282" y="130" width="2.5" height="23" rx="1" fill="#67e8f9">
-        <animate attributeName="x" values="46;282;282" keyTimes="0;0.31;1" dur="3.2s" begin="6.40s;cycle.end+6.40s" fill="freeze"/>
+      <rect x="234" y="130" width="2.5" height="23" rx="1" fill="#67e8f9">
+        <animate attributeName="x" values="46;234;234" keyTimes="0;0.31;1" dur="3.2s" begin="6.40s;cycle.end+6.40s" fill="freeze"/>
         <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="0.85s" repeatCount="indefinite"/>
       </rect>
     </g>
-    <clipPath id="type-3"><rect x="42" y="124" width="334" height="34">
-      <animate attributeName="width" values="0;334;334" keyTimes="0;0.31;1" dur="3.2s" begin="9.60s;cycle.end+9.60s" fill="freeze"/>
+    <clipPath id="type-3"><rect x="42" y="124" width="268" height="34">
+      <animate attributeName="width" values="0;268;268" keyTimes="0;0.31;1" dur="3.2s" begin="9.60s;cycle.end+9.60s" fill="freeze"/>
     </rect></clipPath>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.91;1" dur="3.2s" begin="9.60s;cycle.end+9.60s" fill="freeze"/>
       <g clip-path="url(#type-3)">
         <text x="44" y="148" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-0.3" fill="url(#duo)">Deep Learning Researcher</text>
       </g>
-      <rect x="378" y="130" width="2.5" height="23" rx="1" fill="#67e8f9">
-        <animate attributeName="x" values="46;378;378" keyTimes="0;0.31;1" dur="3.2s" begin="9.60s;cycle.end+9.60s" fill="freeze"/>
+      <rect x="312" y="130" width="2.5" height="23" rx="1" fill="#67e8f9">
+        <animate attributeName="x" values="46;312;312" keyTimes="0;0.31;1" dur="3.2s" begin="9.60s;cycle.end+9.60s" fill="freeze"/>
         <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" calcMode="discrete" dur="0.85s" repeatCount="indefinite"/>
       </rect>
     </g>

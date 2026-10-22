@@ -81,7 +81,7 @@ export function header({ name, tagline }) {
     <circle cx="${term.x + 18}" cy="${term.y + 16}" r="4.2" fill="#ff5f57"/>
     <circle cx="${term.x + 33}" cy="${term.y + 16}" r="4.2" fill="#febc2e"/>
     <circle cx="${term.x + 48}" cy="${term.y + 16}" r="4.2" fill="#28c840"/>
-    <text x="${term.x + term.w / 2}" y="${term.y + 20}" text-anchor="middle" font-family="${MONO}" font-size="9" fill="${C.inkFaint}">a_h_piash — zsh</text>
+    <text x="${term.x + term.w / 2}" y="${term.y + 20}" text-anchor="middle" font-family="${MONO}" font-size="9" fill="${C.inkFaint}">a_h_piash - zsh</text>
     <path d="M${term.x} ${term.y + 32}H${term.x + term.w}" stroke="${C.lineSoft}"/>
 ${typed}
     <text x="${term.x + 18}" y="${cursorY}" font-family="${MONO}" font-size="10.5" fill="${C.mintInk}">$</text>
@@ -461,7 +461,7 @@ const ACCENTS = {
 
 /**
  * One featured-work card. The README wraps each in a link, so the whole card
- * is clickable — a generated, on-brand replacement for a markdown table row.
+ * is clickable - a generated, on-brand replacement for a markdown table row.
  */
 export function projectCard(project) {
   const w = 430;

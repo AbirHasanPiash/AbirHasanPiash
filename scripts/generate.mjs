@@ -200,7 +200,7 @@ async function main() {
     console.log(`  ✓ ${outDir}/${name}  ${(svg.length / 1024).toFixed(1)} KB`);
   }
 
-  if (preview) console.log("\nPreview run — assets/ untouched.");
+  if (preview) console.log("\nPreview run - assets/ untouched.");
 }
 
 main().catch((err) => {

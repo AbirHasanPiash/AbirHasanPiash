@@ -50,7 +50,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets
           if git diff --staged --quiet; then
-            echo "Panels unchanged — nothing to commit."
+            echo "Panels unchanged - nothing to commit."
           else
             git commit -m "chore: refresh profile panels"
             git push

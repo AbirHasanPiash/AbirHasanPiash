@@ -6,7 +6,7 @@
 -->
 
 <p align="center">
-  <img src="assets/header.svg" alt="MD. Abir Hasan Piash — Full-Stack & AI Engineer" width="100%" />
+  <img src="assets/header.svg" alt="MD. Abir Hasan Piash - Full-Stack & AI Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -17,11 +17,14 @@
 
 ### About
 
-Computer Science undergraduate at **BRAC University** (CGPA **3.89/4.00**, SAAF Scholarship — 100% tuition waiver) and a full-stack engineer shipping production software across Python, TypeScript, FastAPI, Django and the MERN stack — healthcare platforms, AI products, event systems and e-commerce, usually several at once.
+Computer Science graduate of **BRAC University** (CGPA **3.88/4.00**, SAAF Scholarship - 100% tuition waiver) and a full-stack engineer shipping production software across Python, TypeScript, FastAPI, Django and the MERN stack - healthcare platforms, AI products, event systems and e-commerce, usually several at once.
 
-I care about the parts of software that only show up under load: the query that stops scaling, the race condition in a booking flow, the model that quietly overfits. Alongside that, my undergraduate thesis is applied deep-learning research in medical image segmentation.
+I care about the parts of software that only show up under load: the query that stops scaling, the race condition in a booking flow, the model that quietly overfits. Alongside that, my undergraduate thesis was applied deep-learning research in medical image segmentation.
 
+<!-- StackScholar role commented out:
 - 👨‍🏫 Undergraduate Teaching Assistant at BRAC University, and Lead Software Engineer at **StackScholar**
+-->
+- 👨‍🏫 Former Undergraduate Teaching Assistant at BRAC University (Feb – Sep 2026)
 - 🧪 Author of **MatSeg-Conv**, a nested-capacity segmentation network that beats four established baselines while staying the smallest model benchmarked
 - 🧩 **500+** algorithm problems solved across LeetCode, Codeforces and CodeChef
 - 📫 Reach me at **abirhasanpiash@gmail.com**
@@ -52,15 +55,15 @@ I care about the parts of software that only show up under load: the query that 
 ### Selected work
 
 <p align="center">
-  <a href="https://github.com/AbirHasanPiash/DevLink"><img src="assets/project-devlink.svg" alt="DevLink — developer community where breaking the API won't compile" width="49%" /></a>
-  <a href="https://github.com/AbirHasanPiash/gen-marketing-studio"><img src="assets/project-gen-marketing-studio.svg" alt="Generative Marketing Studio — multi-tenant platform that generates and ships campaigns" width="49%" /></a>
+  <a href="https://github.com/AbirHasanPiash/DevLink"><img src="assets/project-devlink.svg" alt="DevLink - developer community where breaking the API won't compile" width="49%" /></a>
+  <a href="https://github.com/AbirHasanPiash/gen-marketing-studio"><img src="assets/project-gen-marketing-studio.svg" alt="Generative Marketing Studio - multi-tenant platform that generates and ships campaigns" width="49%" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/AbirHasanPiash/medicare-sync"><img src="assets/project-medicare-sync.svg" alt="MediCare Sync — clinic platform where concurrent bookings can never collide" width="49%" /></a>
-  <a href="https://github.com/AbirHasanPiash/EventPilot"><img src="assets/project-eventpilot.svg" alt="EventPilot — event management from creation through to attendance" width="49%" /></a>
+  <a href="https://github.com/AbirHasanPiash/medicare-sync"><img src="assets/project-medicare-sync.svg" alt="MediCare Sync - clinic platform where concurrent bookings can never collide" width="49%" /></a>
+  <a href="https://github.com/AbirHasanPiash/EventPilot"><img src="assets/project-eventpilot.svg" alt="EventPilot - event management from creation through to attendance" width="49%" /></a>
 </p>
 <p align="center">
-  <a href="https://pzafira.vercel.app/"><img src="assets/project-pzafira.svg" alt="Pzafira — a complete clothing storefront with real payments" width="49%" /></a>
+  <a href="https://pzafira.vercel.app/"><img src="assets/project-pzafira.svg" alt="Pzafira - a complete clothing storefront with real payments" width="49%" /></a>
 </p>
 
 → **[The full catalogue, with architecture and trade-offs, is on my portfolio](https://ahpiashportfolio.vercel.app/projects)**
@@ -69,7 +72,7 @@ I care about the parts of software that only show up under load: the query that 
 
 ### Research
 
-**Matryoshka Representation Learning for Medical Image Segmentation** — *Undergraduate thesis, Dept. of CSE, BRAC University*
+**Matryoshka Representation Learning for Medical Image Segmentation** - *Undergraduate thesis, Dept. of CSE, BRAC University*
 
 MatSeg-Conv emits coarse, medium and fine segmentation masks from a single forward pass through nested 16/64/256-channel capacity bands, so one trained model serves every hardware budget instead of retraining a family of them.
 
@@ -77,9 +80,9 @@ MatSeg-Conv emits coarse, medium and fine segmentation masks from a single forwa
 | :---: | :---: | :---: | :---: |
 | **0.8326** | **0.7488** | **29M** | **4** |
 
-Beats U-Net, Attention U-Net, ResUNet and DeepLabV3+ (31M–39M parameters) on cross-dataset mean Dice while remaining the smallest model benchmarked — across brain MRI, colonoscopy, electron microscopy and dermoscopy. Up to **+0.16 Dice** over DeepLabV3+ on 50-image training subsets.
+Beats U-Net, Attention U-Net, ResUNet and DeepLabV3+ (31M–39M parameters) on cross-dataset mean Dice while remaining the smallest model benchmarked - across brain MRI, colonoscopy, electron microscopy and dermoscopy. Up to **+0.16 Dice** over DeepLabV3+ on 50-image training subsets.
 
-*Also:* **[Earthquake Magnitude & Significance Prediction](https://github.com/AbirHasanPiash/earthquake-prediction)** — an end-to-end pipeline over 3.4M seismic events reaching **R² = 0.83**.
+*Also:* **[Earthquake Magnitude & Significance Prediction](https://github.com/AbirHasanPiash/earthquake-prediction)** - an end-to-end pipeline over 3.4M seismic events reaching **R² = 0.83**.
 
 ---
 
@@ -97,9 +100,9 @@ Long-form engineering pieces on the decisions teams keep having to make:
 
 ### Certifications
 
-- **Introducing Generative AI with AWS** — Udacity, with AWS and Accenture, 2025 · [credential](https://www.udacity.com/certificate/e/6295e170-3d4f-11f0-9c7a-133a78634c1b)
-- **Supervised Machine Learning: Regression and Classification** — Stanford University on Coursera, 2025 · [credential](https://coursera.org/share/81b969eac90af74da9d14c5a83420554)
-- **CSE Fundamentals** — Phitron, 2024 · [credential](https://phitron.io/verification?validationNumber=PHBATCH562543111012)
+- **Introducing Generative AI with AWS** - Udacity, with AWS and Accenture, 2025 · [credential](https://www.udacity.com/certificate/e/6295e170-3d4f-11f0-9c7a-133a78634c1b)
+- **Supervised Machine Learning: Regression and Classification** - Stanford University on Coursera, 2025 · [credential](https://coursera.org/share/81b969eac90af74da9d14c5a83420554)
+- **CSE Fundamentals** - Phitron, 2024 · [credential](https://phitron.io/verification?validationNumber=PHBATCH562543111012)
 
 ---
 

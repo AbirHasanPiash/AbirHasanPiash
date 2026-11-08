@@ -6,7 +6,7 @@
 -->
 
 <p align="center">
-  <img src="assets/header.svg" alt="MD. Abir Hasan Piash - Full-Stack & AI Engineer" width="100%" />
+  <img src="assets/header.svg" alt="MD. Abir Hasan Piash - AI Engineer: LLM apps, evals, agents" width="100%" />
 </p>
 
 <p align="center">

@@ -4,11 +4,12 @@ import { languages, streaks } from "./data.mjs";
 /* -------------------------------------------------------------- 1. Header */
 
 const ROLES = [
+  "AI Engineer: LLM apps, evals, agents",
   "Full-Stack Engineer",
-  "AI / ML Engineer",
   "Backend Architect",
   "Deep Learning Researcher",
 ];
+
 
 /**
  * Hero banner: aurora washes, a starfield, a typewriter role line with a
@@ -55,7 +56,7 @@ export function header({ name, tagline }) {
   const term = { x: 556, y: 50, w: 282, h: 158 };
   const termLines = [
     { p: "$", cmd: " whoami" },
-    { out: "full-stack + AI/ML engineer" },
+    { out: "AI engineer: LLM apps, evals, agents" },
     { p: "$", cmd: " cat stack.txt" },
     { out: "FastAPI · Django · Next.js · PyTorch" },
   ];
